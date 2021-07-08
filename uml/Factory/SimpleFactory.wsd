@@ -1,0 +1,23 @@
+@startuml
+
+interface Shape{
+    string GetString()
+}
+
+class Circle implements Shape{
+    +string GetString()
+}
+class Triangle implements Shape{
+    +string GetString()
+}
+
+Shape <. SimpleFactory
+class SimpleFactory{
+    +Shape CreateShape(string type)
+}
+
+SimpleFactory <-- Program
+class Program{
+    +Main(string[] args)
+}
+@enduml
