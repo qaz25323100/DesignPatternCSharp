@@ -2,5 +2,5 @@
 
 
 <p align="center">
-  <img src="https://github.com/qaz25323100/DesignPatternCSharp/blob/main/out/uml/Factory/SimpleFactory/SimpleFactory.png" width="350" title="hover text">
+  <img src="https://github.com/qaz25323100/DesignPatternCSharp/blob/main/out/uml/Factory/SimpleFactory/SimpleFactory.png" height="600" width="800" title="hover text">
 </p>
